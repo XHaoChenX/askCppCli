@@ -1,36 +1,40 @@
 # ask
 
-纯 C++ 写的 CLI AI 工具
+A CLI AI tool written in pure C++.
 
-## 组件描述
+> **Note:** This is the English version. For Chinese documentation, see [README_cn.md](./README_cn.md).
 
-- `libdabai.so` — 个人纯 C++ 写的 Agent 库
+## Components
 
-## 配置
+- `libdabai.so` — A personal Agent library written in pure C++
 
-> 本工具只是作为个人探索 C++ 写 Agent 可行性，所以没有对所有模型适配。
+## Configuration
+
+> This tool was created for personal exploration of writing Agents in C++, so not all models are supported.
 >
-> 目前只支持 `kimi-k2.5` 模型，在 `setting.json` 里配置自己 `api key` 理论就能使用。
+> Currently only the `kimi-k2.5` model is supported. Configure your `api key` in `setting.json` and it should work.
 
-## 环境
+## Environment
 
 - Ubuntu 22.04
 
-## 依赖
+## Dependencies
 
 - libcurl
 
-## 使用方法
+## Usage
 
 ```bash
 ./ask <question> [files]...
 ```
 
-### 示例
+### Examples
 
 ```bash
-./ask "你好"
-./ask "解释代码" code.cpp
-./ask code.cpp "解释"
-./ask "分析" log1.txt log2.txt
+./ask "Hello"
+./ask "Explain code" code.cpp
+./ask code.cpp "Explain"
+./ask "Analyze" log1.txt log2.txt
 ```
+
+[example.png](./example.png)
