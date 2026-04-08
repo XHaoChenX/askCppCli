@@ -37,4 +37,4 @@ A CLI AI tool written in pure C++.
 ./ask "Analyze" log1.txt log2.txt
 ```
 
-[example.png](./example.png)
+![example](./example.png)

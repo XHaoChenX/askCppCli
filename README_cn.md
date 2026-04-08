@@ -37,4 +37,4 @@
 ./ask "分析" log1.txt log2.txt
 ```
 
-[example.png](./example.png)
+![示例](./example.png)
